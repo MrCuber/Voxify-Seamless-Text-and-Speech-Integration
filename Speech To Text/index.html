@@ -12,6 +12,12 @@
     <h1>
         <span class="accent">Voxify</span>
     </h1>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a class="active" href="#">Speech To Text</a></li>
+      <li><a href="../Text To Speech/index.html">Text To Speech</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
     <div class="container">
         <h2>Say Something</h2>
         <form id="form">
@@ -21,6 +27,8 @@
           <button type="submit" class="btn" id="speak">Speak</button>
           <button type="submit" class="btn" id="stop" disabled>Stop Listening</button>
           <button type="submit" class="btn" id="clear" disabled>Clear All</button>
+          <button type="submit" class="btn" id="downloadLink" disabled>Download Audio</button>
+          <audio id="audioPlayer" controls></audio>
         </form>
       </div>
     </body>
